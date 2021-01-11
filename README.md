@@ -11,7 +11,7 @@ JointPoint: defines a joint interest point that happens on client-side code, i.e
 ### Aspect and Advice
 Aspect: defines a common concern across many classes. Advice: a block of code that handles an Aspect, a common concern.
 
-Advice: provides PointCut with a block of code that will be re-used across many classes.
+Advice: provides a PointCut with a block of code that will be re-used across many classes.
 
 ### Type of Advice
 * Before-Advice: @Before
