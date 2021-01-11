@@ -6,10 +6,12 @@ AOP can be implemented by a proxy pattern or by an OOP inheritance; the core ide
 AOP involves a lot of concepts and terms.
 
 ### JointPoint and PointCut
-JointPoint: defines a joint interest point that happens on client-side code, i.e. places across many classes. PointCut: selecting a joinpoint, which designates the Aspect a common concern.
+JointPoint: defines a joint interest point that happens on client-side code, i.e. places across many classes. 
+
+PointCut: selecting a joinpoint, which designates the Aspect a common concern.
 
 ### Aspect and Advice
-Aspect: defines a common concern across many classes. Advice: a block of code that handles an Aspect, a common concern.
+Aspect: defines a common concern across many classes. 
 
 Advice: provides a PointCut with a block of code that will be re-used across many classes.
 
