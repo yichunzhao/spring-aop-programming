@@ -24,8 +24,7 @@ Advice: implementing a common concern by providing a PointCut a block of code th
 
 ### Spring AOP Annotations
 
-As well as the Advice annotation listed above, 
-
+As well as the Advice annotations listed above, 
 * @Configuration and @EnableAspectJAutoProxy must used together to informing bean factory the AOP enabled. 
 * @Component and @Aspect must be used together, so that the component scanning may pick it up.
 
