@@ -22,9 +22,9 @@ Advice: implementing a common concern by providing a PointCut a block of code th
 * After-Throwing-Advice
 * Around-Advice: @Around a piontCut,i.e. jontPiont
 
-### Spring AOJ Annotations
+### Spring AOP Annotations
 
-* @Configuration and @EnableAspectJAutoProxy must used together to indicating AOJ enabled. 
+* @Configuration and @EnableAspectJAutoProxy must used together to informing bean factory the AOP enabled. 
 * @Component and @Aspect must be used together, so that the component scanning may pick it up.
 
 
