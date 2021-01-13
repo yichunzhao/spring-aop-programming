@@ -1,6 +1,6 @@
 # Spring AOP programming
 
-AOP can be implemented by a proxy pattern or by an OOP inheritance; the core idea is to dynamically extend the existing method to have new functionality. Spring AOP only apply on a method level.
+AOP can be implemented by a proxy pattern or by an OOP inheritance; the core idea is to dynamically extend the existing method to have a new functionality. Spring AOP intercept a method and wrapping it before/after/around with advices.
 
 ## Concept and Terms
 AOP involves a lot of concepts and terms.
@@ -18,9 +18,9 @@ Advice: implementing a common concern by providing a PointCut a block of code th
 ### Type of Advice
 * Before-Advice: @Before a pointCut,i.e. jontPiont
 * After-Advice: @After a pointCut,i.e. jontPiont
-* After-Returning-Advice
+* After-Returning-Advice: @AfterReturning. inserting an advice after a jointPoint method returning a value.
 * After-Throwing-Advice
-* Around-Advice: @Around a piontCut,i.e. jontPiont
+* Around-Advice: @Around. inserting advice around a jointPoint, before/after invoking the method.
 
 ### Spring AOP Annotations
 
