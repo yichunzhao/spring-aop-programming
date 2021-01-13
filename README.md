@@ -13,11 +13,19 @@ PointCut: selecting a joinpoint, which designates the Aspect a common concern.
 ### Aspect and Advice
 Aspect: defines a common concern across many classes. 
 
-Advice: provides a PointCut with a block of code that will be re-used across many classes.
+Advice: implementing a common concern by providing a PointCut a block of code that will be re-used across many classes.
 
 ### Type of Advice
-* Before-Advice: @Before
-* After-Advice:
+* Before-Advice: @Before a pointCut,i.e. jontPiont
+* After-Advice: @After a pointCut,i.e. jontPiont
 * After-Returning-Advice
 * After-Throwing-Advice
-* Around-Advice
+* Around-Advice: @Around a piontCut,i.e. jontPiont
+
+### Spring AOP Annotations
+
+As well as the Advice annotations listed above, 
+* @Configuration and @EnableAspectJAutoProxy must be used together to tell the bean factory AOP enabled. 
+* @Component and @Aspect must be used together, so that the component scanning may pick it up.
+
+
