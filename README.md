@@ -1,6 +1,6 @@
 # Spring AOP programming
 
-AOP can be implemented by a proxy pattern or by an OOP inheritance; the core idea is to dynamically extend the existing method to have a new functionality. Spring AOP intercept a method and wrapping it before/after/around with advices.
+AOP can be implemented by a proxy pattern or by an OOP inheritance; the core idea is to dynamically extend the existing method to have a new functionality. Spring AOP intercepts a method and wrapping it before/after/around with advices.
 
 ## Concept and Terms
 AOP involves a lot of concepts and terms.
